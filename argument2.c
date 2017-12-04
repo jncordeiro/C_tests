@@ -18,6 +18,6 @@ void product(float a, float b, float c)
 	float p;
 
 	p = a * b * c;
-	printf("%f * %f * %f = %f\n",a,b,c,p);
+	printf("%0.2f * %0.2f * %0.2f = %0.2f\n",a,b,c,p);
 }
 

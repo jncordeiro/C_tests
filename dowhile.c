@@ -11,7 +11,7 @@ int main()
 		putchar(ch);
 		ch++;
 	}
-	while( ch != 'Z');
+	while( ch != 'Z'+1);
 
 	putchar('\n');
 

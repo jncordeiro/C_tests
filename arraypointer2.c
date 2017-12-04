@@ -10,8 +10,11 @@ int main()
 
 	for(x=0;x<4;x++)
 	{
+
+        printf("Pointer: %d\n",aptr);
 		printf("Element %d: %d\n",x+1,*aptr);
 		aptr++;
+		printf("Pointer: %d\n",aptr);
 	}
 
 	return(0);

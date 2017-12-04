@@ -17,7 +17,7 @@ int main()
 	{
 		printf("%d bytes of memory allocated at %p\n",SIZE,sto);
 	}
-
+	free(sto);
 	return(0);
 }
 
